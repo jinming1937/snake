@@ -1,0 +1,117 @@
+html, body, div, header, footer, section, article, table, th, thead, tr, td, tbody, tfoot, p, label, ul, li, ol, dl, dd, dt, input, a, span {
+  margin: 0px;
+  padding: 0px; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  position: absolute; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.message-box {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 0 auto 10px auto;
+  color: #FFF;
+  background-color: #000;
+  position: fixed;
+  left: 0px;
+  bottom: 20px;
+  z-index: 100010; }
+
+.index-proj {
+  height: 100%;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto; }
+  .index-proj .banner {
+    height: 80px;
+    width: 100%;
+    background: #f14040;
+    line-height: 80px; }
+    .index-proj .banner .theme {
+      color: #FFF;
+      font-size: 1rem; }
+  .index-proj .item-list {
+    width: 100%; }
+    .index-proj .item-list li {
+      height: 30px;
+      width: 100%;
+      text-align: center;
+      line-height: 30px;
+      border-bottom: 1px #999999 solid;
+      background-color: #DDDDDD; }
+      .index-proj .item-list li:active {
+        background-color: #999999; }
+      .index-proj .item-list li a {
+        display: block;
+        height: 30px;
+        width: 100%; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #C0C0C0;
+  position: absolute; }
+  .box .cvs {
+    top: 0;
+    left: 0;
+    background-color: #C0C0C0;
+    position: absolute; }
+  .box .hand {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 90%;
+    padding: 5%; }
+    .box .hand .handArea {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 150px; }
+      .box .hand .handArea .handler {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: rgba(112, 112, 112, 0.7); }
+        .box .hand .handArea .handler:active {
+          background: rgba(155, 155, 155, 0.7); }
+      .box .hand .handArea .leftctrl {
+        left: 0;
+        top: 50px; }
+      .box .hand .handArea .upctrl {
+        top: 0px;
+        left: 50px; }
+      .box .hand .handArea .rightctrl {
+        left: 100px;
+        top: 50px; }
+      .box .hand .handArea .downctrl {
+        left: 50px;
+        top: 100px; }
+      .box .hand .handArea .stop {
+        right: 0px;
+        top: 50px; }
+      .box .hand .handArea .reset {
+        display: none;
+        right: 70;
+        top: 50px; }
+
+.wind {
+  width: 100px;
+  height: 15px;
+  position: absolute;
+  z-index: 100;
+  background: #FFF; }

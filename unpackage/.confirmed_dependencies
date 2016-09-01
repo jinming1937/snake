@@ -1,0 +1,21 @@
+{
+	"index.html": {
+		"href": "index.html",
+		"resources": [
+			"css/main.css",
+			"js/main.js",
+			"css/main.min.css",
+			"js/mainSnake.js",
+			"classical.html"
+		],
+		"refer": [
+			"classical.html"
+		],
+		"priority": 0
+	},
+	"classical.html": {
+		"resources": [
+			"js/mainSnake.js"
+		]
+	}
+}
